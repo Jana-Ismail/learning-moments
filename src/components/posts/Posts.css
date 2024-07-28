@@ -2,8 +2,8 @@
     box-sizing: border-box;
 }
 .posts-container {
-    display: flex;
-    background-color: blue;
+    /* display: flex; */
+    /* background-color: blue; */
     margin: 20px;
     width:90vw;
 }
