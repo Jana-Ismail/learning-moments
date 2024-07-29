@@ -27,23 +27,23 @@
 
 .post-list-item-title {
     display: flex;
+    align-items: center;
     border: 3px solid black;
     margin: 0;
     padding: 10px 20px;
     color: white;
-    background-color: rgb(90, 97, 92);
+    /* background-color: rgb(90, 97, 92); */
+    background-color: var(--outline);
     font-size: 16px;
     height: 50%;
 }
 .post-list-item-topic {
     display: flex;
-    border: 3px solid black;
     margin: 0;
     padding: 0 20px;
     color: white;
-    background-color: black;
+    background-color: none;
     font-size: 16px;
-    height: 40%;
 }
 
 .post-list-group-top {
@@ -51,6 +51,7 @@
     justify-content: space-between;
     align-items: center;
     background-color: black;
+    height: 50%;
 }
 
 .fa-thumbs-up {
